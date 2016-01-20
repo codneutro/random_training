@@ -37,5 +37,4 @@
 --dofile("sys/lua/samples/projectiles.lua")			-- sample.projectiles [Spawn 8 grenades at once when hitting F2 and other stuff with F3/F4] hooks: serveraction
 --dofile("sys/lua/samples/hitzone.lua")				-- sample.hitzone [Creates an image with a hitzone] hooks: startround, serveraction, hitzone
 --dofile("sys/lua/samples/tilemapper.lua")			-- sample.tilemapper [Edit and inspect tiles] hooks: startround, serveraction, clientdata
---dofile("sys/lua/scan_training/training.lua")
 dofile("sys/lua/random_training/main.lua");
